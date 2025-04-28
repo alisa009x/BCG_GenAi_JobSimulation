@@ -39,6 +39,3 @@ Financial data interpretation (10-K and 10-Q reports)
 Rule-based chatbot development
 
 AI applications for consulting and financial analytics
-
-Would you also like a fancier version with badges (like “Made with Python,” “License: MIT,” etc.)? 🚀
-It looks really nice if you want your repo to feel even more professional!
