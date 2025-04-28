@@ -1,0 +1,37 @@
+Chatbot Overview:
+This chatbot is designed to answer specific financial queries based on predefined data about different companies (Apple, Microsoft, Tesla). It is built to respond to a limited set of queries related to total revenue and net income over certain periods.
+
+Predefined Queries:
+The chatbot can respond to the following queries:
+
+"What is the total revenue?"
+
+Response: Provides the total revenue for the companies available in the dataset.
+
+"What is the total revenue for Apple?"
+
+Response: Provides the total revenue for Apple.
+
+"How has net income changed over the last year?"
+
+Response: Provides information about how the net income has changed for companies over the last year (with placeholders for actual change).
+
+"What is the net income for Microsoft in 2023?"
+
+Response: Provides the net income for Microsoft in the year 2023.
+
+"What is the net income for [company] in [year]?"
+
+Response: Provides the net income for a specific company in a specific year (if data exists for that year).
+
+Limitations:
+Limited Query Set: The chatbot only understands a small, predefined set of queries. If a user asks something not included in these queries, the chatbot will respond with a default message: "Sorry, I can only provide information on predefined queries."
+
+No Dynamic Data Handling: The chatbot doesn't pull data dynamically from a live database; it only gives responses based on hardcoded data.
+
+No Advanced Features: The chatbot does not handle complex or broad questions. It also cannot parse information about dates or financial terms beyond the specific data provided.
+
+Input Sensitivity: The chatbot requires the user to ask questions in a precise format, particularly with respect to the company and year, though it is somewhat forgiving of capitalization and extra spaces.
+
+Final Thoughts:
+This chatbot provides a simple but functional interface for answering predefined financial questions. It offers an introductory look into chatbot development, showcasing how specific queries can be mapped to canned responses. However, for more complex use cases, like dynamic querying or large datasets, additional functionality and infrastructure would be needed.
